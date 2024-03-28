@@ -1,0 +1,19 @@
+{
+  "name": "7.6.-cypress-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-headed-chrome": "cypress run --browser chrome --headed",
+    "test-headless-chrome": "cypress run --browser chrome --headless",
+    "test-headed-edge": "cypress run --browser edge --headed",
+    "test-headless-edge": "cypress run --browser edge --headless",
+    "test-mobile": "npx cypress open --config-file cypress.config.mobile.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.7.1"
+  }
+}
